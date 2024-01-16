@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link{
+    color: black;
+}
+
+.welcome-image{
+    width: 575px;
+}
+
+.subscribe-text{
+    text-align: right;
+}
+
+.explore{
+    margin-top: 75px;
+    text-align: center;
+}
+
+.explore-text{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.latest{
+    margin-top: 75px ;
+}
+
+.latest-text{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.latest-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.explore-split-text{
+    padding: 50px;
+}
+
+.gallery-title{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.img-lightbox:hover{
+    box-shadow: 5px 5px;
+}
+
+.utg-title{
+text-align: center;
+margin-top: 40px;
+}
+
+.card-utg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin-top: 40px;
+    border-radius: 0%;
+}
+
+.card:hover{
+    background-color: rgb(228, 227, 227);
+}
+
+.card-img-top{
+    border-radius: 0%;
+}
+
+.sub-form{
+padding: 50px;
+text-align: center;
+
+}
+
+.container-form{
+    margin: 25px;
+}
+.nav{
+    position: sticky;
+    top: 0;
+}
+
+@media (max-width:400px){
+    .row{
+        display: block;
+        text-align: center;
+    }
+}
